@@ -33,52 +33,53 @@ Ensure you have the following installed:
 You can run the application by executing the `main.py` script:
 ```bash
 python main.py
+```
 Alternatively, you can use PyInstaller to create an executable file:
 
-Install PyInstaller:
+1. **Install PyInstaller**:
+    ```bash
+    pip install pyinstaller
+    ```
 
-bash
-Copy code
-pip install pyinstaller
-Create the executable:
+2. **Create the executable**:
+    ```bash
+    pyinstaller --onefile main.py
+    ```
 
-bash
-Copy code
-pyinstaller --onefile main.py
-Run the executable:
+3. **Run the executable**:
+    ```bash
+    dist/main
+    ```
+## Usage
+1. **Upload a DAT File**:
+    - Click on the "Upload" button.
+    - Select the DAT file from your local machine.
+  
+2. **Select Row Range**:
+    - Use the row range selector to choose the specific range of rows you want to view or edit.
+  
+3. **View Specific Rows**:
+    - Enter the row ID in the left panel to quickly navigate to and view a particular row.
+  
+4. **Field Filtering**:
+    - Use the checkboxes in the right panel to filter the fields you want to display or hide.
 
-bash
-Copy code
-dist/main
-Usage
-Upload a DAT File:
-Click on the "Upload" button.
-Select the DAT file from your local machine.
-Select Row Range:
-Use the row range selector to choose the specific range of rows you want to view or edit.
-View Specific Rows:
-Enter the row ID in the left panel to quickly navigate to and view a particular row.
-Field Filtering:
-Use the checkboxes in the right panel to filter the fields you want to display or hide.
-Project Structure
-gui.py: Handles the graphical user interface.
-input_dat.py: Manages the input and processing of DAT files.
-main.py: The main entry point of the application.
-process.py: Contains the logic for processing and filtering the data.
-Contributing
-We welcome contributions! Please follow these steps:
+## Project Structure
+- `gui.py`: Handles the graphical user interface.
+- `input_dat.py`: Manages the input and processing of DAT files.
+- `main.py`: The main entry point of the application.
+- `process.py`: Contains the logic for processing and filtering the data.
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -am 'Add some feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Contributing
+Welcome contributions! Please follow these steps:
 
-Contact
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
+## Contact
 If you have any questions or suggestions, please feel free to reach out.
 
 Happy Editing!
-
-Feel free to customize it further based on any additional specifics or requirements you have for your project.
