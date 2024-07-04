@@ -20,7 +20,7 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/dat-editor.git
+    git clone https://github.com/jihoo529/dat-editor.git
     cd dat-editor
     ```
 
