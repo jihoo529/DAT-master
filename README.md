@@ -1,7 +1,7 @@
-# dat-editor
+# dat-master
 
 ## Overview
-`dat-editor` is a user-friendly application designed to handle and customize complex, large-sized DAT files that cannot be easily opened or manipulated in Microsoft Excel. With this tool, you can efficiently upload DAT files, select specific row ranges, view particular rows by entering IDs, and filter out fields using an intuitive right panel.
+`DAT-master` is a user-friendly application designed to handle and customize complex, large-sized DAT files that cannot be easily opened or manipulated in Microsoft Excel. With this tool, you can efficiently upload DAT files, select specific row ranges, view particular rows by entering IDs, and filter out fields using an intuitive right panel.
 
 ## Features
 - **Upload DAT File**: Easily upload your DAT file to the application.
@@ -10,7 +10,7 @@
 - **Field Filtering**: Use the right panel to check/uncheck fields and filter the data according to your needs.
 
 ## Getting Started
-Follow these steps to set up and run `dat-editor` on your local machine.
+Follow these steps to set up and run `DAT-master` on your local machine.
 
 ### Prerequisites
 Ensure you have the following installed:
@@ -20,8 +20,8 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/jihoo529/dat-editor.git
-    cd dat-editor
+    git clone https://github.com/jihoo529/dat-master.git
+    cd dat-master
     ```
 
 2. Install dependencies:
